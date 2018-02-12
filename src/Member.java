@@ -17,7 +17,12 @@ public class Member extends Person {
         return "Full";
 
     }
-    //public int getMonthlyFee() {
+    public int getMonthlyFee() {
+        if (isBasic) {
+            return 199;
+        } else {
+            return 299;
+        }
 
-    //}
+    }
 }
