@@ -25,5 +25,15 @@ public class MainLinkedList {
         // Tilføj n2 - n8 ved at kalde addNode
 
         myList.printAll();
+
+        try {
+            myList.deleteNode(87);
+        }
+        catch(MyLinkedListException e) {
+            System.out.println("Der skete noget dårligt, men vi kører bare videre, øv bøv!");
+        }
+
+        System.out.println("-----------------------------");
+        myList.printAll();
     }
 }

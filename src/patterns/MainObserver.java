@@ -16,6 +16,4 @@ public class MainObserver {
 
         observable1.postVideo("Making a chair");
     }
-
-
 }
